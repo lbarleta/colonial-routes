@@ -1,6 +1,6 @@
 <?php 
 
-require_once('/lang/lang.php');
+require_once('/config/lang.php');
 
 $lang = (isset($_GET['lang'])) ? $_GET['lang'] : 'en';
 
@@ -317,21 +317,21 @@ $lang = (isset($_GET['lang'])) ? $_GET['lang'] : 'en';
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>	
 	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
   
-    <link rel="stylesheet" href="lib/leaflet-0.7.5/leaflet.css" />
+    <link rel="stylesheet" href="js/leaflet-0.7.5/leaflet.css" />
 	
-    <script src="lib/leaflet-0.7.5/leaflet.js"></script>
-    <script src="lib/leaflet.ajax.min.js"></script>
+    <script src="js/leaflet-0.7.5/leaflet.js"></script>
+    <script src="js/leaflet.ajax.min.js"></script>
 	
-	<link rel="stylesheet" href="lib/leaflet.draw/dist/leaflet.draw.css" />
-    <script src="lib/leaflet.draw/dist/leaflet.draw.js"></script>
+	<link rel="stylesheet" href="js/leaflet.draw/dist/leaflet.draw.css" />
+    <script src="js/leaflet.draw/dist/leaflet.draw.js"></script>
 	
-    <script src="lib/leaflet-image.js"></script>
+    <script src="js/leaflet-image.js"></script>
 	
-	<link rel="stylesheet" href="lib/leaflet.MeasureControl/leaflet.measurecontrol.css" />
-    <script src="lib/leaflet.MeasureControl/leaflet.measurecontrol.js"></script>
+	<link rel="stylesheet" href="js/leaflet.MeasureControl/leaflet.measurecontrol.css" />
+    <script src="js/leaflet.MeasureControl/leaflet.measurecontrol.js"></script>
 	
-	<script src="lib/jquery.svg.min.js"></script>
-	<script src="lib/jquery.svganim.min.js"></script>
+	<script src="js/jquery.svg.min.js"></script>
+	<script src="js/jquery.svganim.min.js"></script>
 	
 	<script>	
 		// Styles	
